@@ -1,0 +1,242 @@
+:root{--maroon:#5b1015;--red:#8d2022;--kumkum:#a52a25;--gold:#c69a4a;--gold-light:#e7cc8c;--cream:#f8f0dc;--ivory:#fffaf0;--green:#34563d;--ink:#45251c;--serif:'Cormorant Garamond',Georgia,serif;--display:'Playfair Display',Georgia,serif;--tamil:'Noto Serif Tamil',serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--serif);font-size:18px}button,a{font:inherit}.cover{min-height:100svh;position:relative;display:grid;place-items:center;overflow:hidden;padding:66px 18px 72px;background:radial-gradient(ellipse at 50% 35%,#9d2423 0,#74181d 40%,#4a0d15 100%)}.cover:before,.cover:after{content:"";position:absolute;inset:12px;border:1px solid rgba(231,204,140,.5);pointer-events:none}.cover:after{inset:19px;border-color:rgba(231,204,140,.22)}.cover-backdrop{position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent 0 23px,rgba(237,205,133,.035) 24px 25px),radial-gradient(ellipse,transparent 30%,rgba(25,0,0,.16))}.leaf-garland{position:absolute;top:0;left:0;right:0;height:70px;z-index:2;background:radial-gradient(ellipse at 50% -30%,#577340 0 35%,transparent 36%);filter:drop-shadow(0 5px 5px #2e0a0a)}.leaf-garland:before{content:"❧  ❧  ❧  ❧  ❧  ❧  ❧  ❧  ❧  ❧  ❧  ❧  ❧  ❧  ❧";display:block;text-align:center;color:#91a05a;font-size:26px;letter-spacing:4px;text-shadow:0 2px #253e2a}.cover-card{position:relative;z-index:3;width:min(100%,550px);perspective:1400px;transition:transform 1s cubic-bezier(.2,.8,.2,1);filter:drop-shadow(0 20px 34px #24070b99)}.cover-card-inner{position:relative;background:var(--ivory);padding:15px;clip-path:polygon(0 8%,8% 8%,8% 0,92% 0,92% 8%,100% 8%,100% 92%,92% 92%,92% 100%,8% 100%,8% 92%,0 92%);}.arch-frame{border:1px solid var(--gold);padding:8px;background:linear-gradient(140deg,#fff8e5,#f2e4c2)}.arch-inner{min-height:640px;text-align:center;position:relative;padding:35px 24px 28px;border:1px solid #cfad69;background:radial-gradient(ellipse at top,#fffdf6,#f9f0d9 68%,#efe0bd);clip-path:polygon(0 10%,8% 10%,8% 3%,20% 3%,20% 0,80% 0,80% 3%,92% 3%,92% 10%,100% 10%,100% 100%,0 100%)}.arch-inner:before,.arch-inner:after{content:"❧";position:absolute;top:15%;font-size:43px;color:#a27b37}.arch-inner:before{left:8px;transform:rotate(-45deg)}.arch-inner:after{right:8px;transform:scaleX(-1) rotate(-45deg)}.sunburst{font-size:35px;color:var(--gold);line-height:1}.tamil{font-family:var(--tamil);color:var(--red);letter-spacing:.08em}.sacred{font-size:20px;margin:12px 0}.blessing{font-size:17px;line-height:1.5;color:#685345;margin:16px}.mini-lotus{color:#a78342;font-size:18px;margin:16px}.eyebrow{text-transform:uppercase;letter-spacing:.19em;font:500 10px var(--display);color:#9b7740}.cover .eyebrow{margin:16px 0 10px}.cover h1{font:500 clamp(38px,8vw,55px)/.91 var(--serif);color:var(--maroon);margin:10px 0 15px}.cover h1 .amp{font:400 28px var(--display);color:#a77d39;display:inline-block;padding:10px}.cover-date{font:500 14px var(--display);letter-spacing:.08em;color:#70552f}.cover-date span{color:var(--gold);padding:0 5px}.cover-rule{display:flex;align-items:center;justify-content:center;gap:10px;color:#a88443;margin:15px}.cover-rule i{width:62px;height:1px;background:#c9a65e}.open-button{border:1px solid #8c5f22;background:linear-gradient(135deg,#a32c25,#68141b);box-shadow:inset 0 0 0 3px #ffffff1c;color:#fff5d8;padding:14px 27px;letter-spacing:.09em;font:500 12px var(--display);cursor:pointer;transition:.25s}.open-button:hover{transform:translateY(-3px);box-shadow:0 8px 18px #50151745}.open-button b{color:#e9ca7e;margin-left:15px}.cover-hint{font-style:italic;color:#8a7153;font-size:14px;margin:18px 0 0}.cover-card-back{display:none}.cover.opened{min-height:500px;transition:min-height 1s ease}.cover.opened .cover-card{transform:translateY(12px) scale(.94);opacity:0;pointer-events:none}.cover-caption{position:absolute;bottom:28px;z-index:2;color:#ead49e;display:flex;gap:18px;align-items:center;font-size:12px;letter-spacing:.12em}.cover-caption span:first-child{font-family:var(--tamil)}.banana{position:absolute;bottom:0;width:120px;height:260px;z-index:1}.banana-left{left:1.5%}.banana-right{right:1.5%;transform:scaleX(-1)}.banana b{position:absolute;bottom:0;left:54px;height:210px;width:12px;border-radius:12px;background:linear-gradient(90deg,#9c7b28,#e0bd57,#7d6926)}.banana i{position:absolute;bottom:105px;left:55px;width:85px;height:110px;background:linear-gradient(120deg,#597646,#a1a65d);border-radius:100% 0 100% 0;transform-origin:left bottom}.banana i:nth-child(1){transform:rotate(-55deg)}.banana i:nth-child(2){transform:rotate(-5deg);background:linear-gradient(120deg,#53683a,#89964b)}.banana i:nth-child(3){transform:rotate(45deg);background:linear-gradient(120deg,#657c3f,#a2a65d)}.lamp{position:absolute;bottom:22px;width:60px;height:170px;z-index:2}.lamp-left{left:10%}.lamp-right{right:10%}.lamp-bowl{position:absolute;bottom:73px;left:8px;width:45px;height:16px;border-radius:50%;background:linear-gradient(#f1d986,#a77421 70%,#e2bc5a);box-shadow:0 3px 4px #2c1110}.lamp-stem{position:absolute;bottom:28px;left:26px;width:9px;height:52px;background:linear-gradient(90deg,#98671f,#f2d47a,#98671f);clip-path:polygon(35% 0,65% 0,100% 100%,0 100%)}.lamp-foot{position:absolute;bottom:14px;left:5px;width:52px;height:17px;border-radius:50%;background:linear-gradient(#e3bf5d,#895c1f)}.flame{position:absolute;bottom:89px;left:24px;width:15px;height:25px;border-radius:80% 15% 70% 30%;background:#ffd570;transform:rotate(45deg);filter:drop-shadow(0 0 9px #ffd15d);animation:flicker 1.2s infinite alternate}.section{position:relative;padding:100px 24px}.welcome{text-align:center;background:var(--ivory);overflow:hidden}.section-ornament{color:#a17b3e;font-size:28px}.welcome .tamil{font-size:18px;margin:15px}.section h2{font:500 clamp(38px,7vw,62px)/1.03 var(--serif);color:var(--maroon);margin:12px 0 24px}.section h2 em{font-weight:400;color:#a47b3c}.welcome-copy{max-width:590px;margin:0 auto;color:#695546;font-size:20px;line-height:1.7}.welcome-blessing{color:#92743e;font-size:17px;font-style:italic;margin-top:26px}.hanging-bells{position:absolute;top:0;left:10%;right:10%;display:flex;justify-content:space-between;color:#b28d4b;opacity:.5}.hanging-bells span{border-top:1px solid #b28d4b;padding:25px 12px 0;font-size:20px}.couple{background:radial-gradient(ellipse at center,#fffdf6,#f2e7cd);text-align:center}.section-heading{text-align:center;margin-bottom:46px}.section-heading .eyebrow{margin:0}.ornament-line{color:#aa8646}.couple-grid{max-width:900px;margin:auto;display:grid;grid-template-columns:1fr 90px 1fr;align-items:center}.person-card h3{font:500 35px var(--serif);color:var(--maroon);margin:23px 0 0}.person-role{font:500 10px var(--display);letter-spacing:.2em;text-transform:uppercase;color:#997440;margin:3px}.family-placeholder{font-style:italic;color:#756657}.family-placeholder span{display:block;font-size:15px;margin-top:4px}.portrait-frame{width:210px;height:250px;margin:auto;position:relative;border:1px solid #b28e4e;padding:8px;border-radius:110px 110px 5px 5px;background:#f8efd8;box-shadow:0 8px 22px #6e492019}.portrait-frame:before{content:"";position:absolute;inset:4px;border:1px solid #d4b875;border-radius:inherit}.portrait-halo{position:absolute;top:20px;left:35px;width:140px;height:140px;border-radius:50%;background:radial-gradient(circle,#f2dba4,#e9d2a3 52%,#dcc08a 53%,transparent 54%)}.portrait-figure{position:absolute;bottom:34px;left:50%;transform:translateX(-50%);height:140px;width:105px;border-radius:52% 52% 10% 10%;background:linear-gradient(90deg,#801b20,#ad3930 48%,#71171c);clip-path:polygon(18% 20%,30% 3%,70% 3%,82% 20%,100% 100%,0 100%);display:grid;place-items:center}.portrait-figure:before{content:"";position:absolute;top:10px;width:45px;height:55px;border-radius:50%;background:#bd815e}.portrait-figure span{position:relative;z-index:1;color:#f7dfa5;font:24px var(--tamil);margin-top:80px}.portrait-figure i{position:absolute;top:74px;width:90px;height:6px;background:#d3ae61;border-radius:50%}.portrait-figure.bride{background:linear-gradient(90deg,#78151d,#bb3a2d 48%,#77141b)}.portrait-figure.groom{background:linear-gradient(90deg,#335840,#698354 48%,#335840)}.portrait-caption{position:absolute;bottom:12px;left:0;right:0;text-transform:uppercase;font:9px var(--display);letter-spacing:.2em;color:#8d6b37}.couple-divider{display:grid;justify-items:center;gap:15px;color:#ad8747}.couple-divider span{font-size:30px}.couple-divider b{font:16px var(--tamil)}.details{background:linear-gradient(135deg,#5b1015,#781b20 55%,#4a0d14);color:#f8efd9;text-align:center;overflow:hidden}.details:before{content:"";position:absolute;inset:20px;border:1px solid #d4b36b33;pointer-events:none}.light h2{color:#fff0d3}.light h2 em{color:#e1c077}.light .eyebrow{color:#dec689}.light .ornament-line{color:#e1c077}.detail-cards{max-width:1000px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:19px}.detail-card{min-height:265px;border:1px solid #c59c52;padding:30px 16px 23px;background:linear-gradient(145deg,#fff7e8,#f1e2c2);color:#4e2d1e;position:relative;box-shadow:inset 0 0 0 5px #fffaf0}.detail-card:before{content:"";position:absolute;inset:7px;border:1px solid #d8bd7e;pointer-events:none}.detail-icon{font-size:30px;color:#a67f3d}.detail-card .eyebrow{margin:10px 0;color:#98753d}.detail-card h3{font:500 29px var(--serif);color:var(--maroon);margin:8px 0}.detail-card p{margin:0;color:#765e44}.detail-card small{color:#856f55;font-style:italic}.card-rule{display:block;width:54px;height:1px;background:#c19b54;margin:19px auto}.text-link{color:#7b201e;font:500 11px var(--display);text-decoration:none}.venue-pending{font-size:14px!important;font-style:italic}.reception-note{margin:28px 0 0;color:#e6cf9b;font-size:17px}.reception-note span{font-style:italic;margin-left:8px}.countdown{background:var(--ivory);text-align:center;padding:88px 20px}.countdown-inner{max-width:700px;margin:auto}.countdown h2{font-size:48px}.countdown-grid{display:flex;justify-content:center;align-items:center;gap:clamp(10px,3vw,28px);margin:35px 0 18px}.countdown-grid div{display:grid;gap:5px;min-width:65px}.countdown-grid strong{font:500 clamp(38px,7vw,58px) var(--serif);color:var(--maroon);font-variant-numeric:tabular-nums}.countdown-grid span{font:10px var(--display);text-transform:uppercase;letter-spacing:.15em;color:#9a7843}.countdown-grid>i{font:28px var(--serif);color:#bd9a58;margin-top:-15px}.countdown-note{font-style:italic;color:#82705d}.venue{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;background:#ede0c3;padding:85px max(24px,calc((100% - 950px)/2))}.venue-art{height:320px;display:grid;place-items:center;background:radial-gradient(ellipse,#f8efd9,#e6d4ae);border:1px solid #c8a462;position:relative}.venue-art:before{content:"";position:absolute;inset:8px;border:1px solid #d1b477}.gopuram{width:190px;height:240px;position:relative;text-align:center;color:#8b2c24;border-bottom:8px solid #9d773a}.gopuram-tip{font-size:25px}.gopuram-level{margin:auto;display:grid;place-items:center;background:linear-gradient(90deg,#b88b47,#e0c27c,#b88b47);border:1px solid #956c34;color:#8c2924;clip-path:polygon(50% 0,100% 100%,0 100%)}.l1{height:60px;width:90px;font-size:20px}.l2{height:55px;width:130px;font-size:17px}.l3{height:52px;width:170px;font-size:15px}.gopuram-door{position:absolute;bottom:0;left:67px;width:56px;height:60px;background:#70191d;color:#e4c57d;border-radius:50% 50% 0 0;display:grid;place-items:center;font-size:21px}.venue-copy h2{font-size:49px}.venue-copy>p:not(.eyebrow){line-height:1.65;color:#685342;font-size:19px}.map-button{display:inline-flex;align-items:center;gap:11px;margin-top:13px;padding:14px 20px;background:var(--maroon);color:#fff3d7;text-decoration:none;font:500 11px var(--display);letter-spacing:.06em;box-shadow:0 4px 12px #3d12151f;transition:.2s}.map-button:hover{background:#84211f;transform:translateY(-2px)}.map-button span{color:#e8cb81;font-size:18px}.map-button b{color:#e8cb81}.venue-copy small{display:block;color:#8a7355;margin:12px 0;font-size:14px;font-style:italic}.closing{text-align:center;background:radial-gradient(ellipse,#fff8e7,#f3e6c9);padding:95px 20px 75px;overflow:hidden}.closing:before,.closing:after{content:"❧";position:absolute;top:20%;font-size:100px;color:#c4a15a22}.closing:before{left:5%}.closing:after{right:5%;transform:scaleX(-1)}.closing-ornament,.closing-flower{font-size:30px;color:#a7854b}.closing .tamil{font-size:18px}.closing h2{font-size:clamp(34px,6vw,52px);margin:20px 0}.closing-lamps{display:flex;justify-content:center;gap:105px;font-size:29px;filter:drop-shadow(0 0 10px #dfb85b)}.closing-names{font:500 18px var(--display);color:#6b3524;letter-spacing:.06em;margin-top:26px}.closing-names span{color:#b58e4c;padding:0 9px}.closing-footer{font-family:var(--tamil);font-size:13px;color:#967441}footer{background:#4b0e14;color:#e4c987;padding:18px 25px;display:flex;justify-content:space-between;align-items:center;font-size:12px;letter-spacing:.08em}footer span:first-child{font-family:var(--tamil)}.music-toggle{position:fixed;z-index:9;right:20px;top:20px;border:1px solid #d8bb79;background:#fff8e9ee;color:#6b181b;width:48px;height:48px;border-radius:50%;display:grid;place-items:center;cursor:pointer;box-shadow:0 3px 12px #21070938}.music-icon{font-size:20px}.music-label{position:absolute;right:54px;background:#fff8e9;padding:5px 9px;font:10px var(--display);color:#69161a;white-space:nowrap;opacity:0;transition:.2s}.music-toggle:hover .music-label{opacity:1}.petal-field{position:fixed;inset:0;pointer-events:none;z-index:7;overflow:hidden}.petal{position:absolute;top:-30px;width:10px;height:14px;border-radius:80% 15% 70% 30%;background:#e8b4a3;opacity:.75;animation:fall linear forwards}.section.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}.section.reveal.visible{opacity:1;transform:translateY(0)}@keyframes flicker{to{transform:translate(2px,-1px) rotate(51deg);opacity:.8}}@keyframes fall{to{transform:translate3d(var(--drift),110vh,0) rotate(650deg);opacity:.05}}@media(max-width:700px){.section{padding:76px 20px}.cover{padding:64px 16px 75px}.arch-inner{min-height:570px;padding:29px 19px}.cover h1{font-size:46px}.banana{transform:scale(.65);transform-origin:bottom left;opacity:.8}.banana-right{transform:scale(-.65,.65);transform-origin:bottom right}.lamp{transform:scale(.72);transform-origin:bottom center}.lamp-left{left:1%}.lamp-right{right:1%}.cover-caption{font-size:10px;gap:10px}.detail-cards{grid-template-columns:1fr;max-width:370px}.detail-card{min-height:235px}.couple-grid{grid-template-columns:1fr;gap:25px}.couple-divider{display:flex;justify-content:center;align-items:center;gap:15px}.couple-divider span{font-size:23px}.couple-divider b{display:none}.portrait-frame{width:190px;height:230px}.venue{grid-template-columns:1fr;gap:32px;padding:70px 24px}.venue-art{height:260px;order:2}.venue-copy{text-align:center}.venue-copy h2{font-size:44px}.countdown-grid{gap:9px}.countdown-grid div{min-width:54px}.countdown-grid strong{font-size:39px}.countdown-grid span{font-size:8px}.countdown-grid>i{font-size:22px}footer{flex-wrap:wrap;justify-content:center;gap:9px 20px;text-align:center}.closing-lamps{gap:60px}.hanging-bells{left:4%;right:4%}.hanging-bells span{padding-left:6px;padding-right:6px}}@media(max-height:760px) and (min-width:701px){.arch-inner{min-height:570px;padding-top:22px}.cover{padding-top:48px;padding-bottom:56px}.sunburst{font-size:28px}}
+
+/* Family supplied invitation artwork */
+.cover{background-color:#7a5423;background-image:linear-gradient(180deg,rgba(75,45,14,.05),rgba(75,45,14,.12)),url('assets/floral-invitation-bg.jfif');background-size:cover;background-position:center 48%}
+.cover:before,.cover:after{border-color:rgba(185,137,57,.58)}
+.leaf-garland,.cover .banana,.cover .lamp{display:none}
+.cover-card{filter:drop-shadow(0 16px 30px rgba(67,43,17,.22))}
+.cover-card-inner{background:rgba(255,249,232,.82)}
+.arch-frame{background:rgba(255,248,224,.55)}
+.arch-inner{background:rgba(255,250,237,.78)}
+.cover h1{color:#4b3b22}
+.open-button{background:linear-gradient(135deg,#52613c,#35462e);border-color:#a78543}
+.welcome{background-image:linear-gradient(rgba(255,250,240,.82),rgba(255,250,240,.84)),url('assets/temple-invitation-bg.jfif');background-size:cover;background-position:center 52%}
+@media(max-width:700px){.cover{background-position:center 48%}.cover-card-inner{background:rgba(255,249,232,.88)}.arch-inner{background:rgba(255,250,237,.84)}}
+
+/* Show the supplied portrait artwork in full on wide screens too */
+.cover{background-image:url('assets/floral-invitation-bg.jfif');background-size:auto 100%;background-repeat:no-repeat;background-position:center}
+.cover-backdrop{background:linear-gradient(rgba(58,39,15,.24),rgba(58,39,15,.24)),url('assets/floral-invitation-bg.jfif') center/cover no-repeat;filter:blur(5px);transform:scale(1.03)}
+.cover-card{width:min(100%,440px);filter:drop-shadow(0 8px 20px rgba(67,43,17,.16))}
+.cover-card-inner{background:rgba(255,249,232,.32)}
+.arch-frame{background:rgba(255,248,224,.2)}
+.arch-inner{background:rgba(255,250,237,.42)}
+@media(max-width:700px){.cover{background-size:auto 100%;background-position:center}.cover-card-inner{background:rgba(255,249,232,.48)}.arch-inner{background:rgba(255,250,237,.5)}}
+
+/* Let more of the floral frame breathe around the invitation copy */
+.cover-card{width:min(100%,480px)}
+.cover-card-inner{background:rgba(255,249,232,.2)}
+.arch-inner{min-height:0;padding:23px 18px 20px;background:rgba(255,250,237,.27)}
+.cover h1{font-size:clamp(36px,4vw,43px);margin:7px 0;white-space:nowrap}
+.cover h1 .amp{padding:5px}
+.cover .sacred{margin:6px 0}
+.cover .blessing{margin:8px}
+.cover .mini-lotus{margin:8px}
+.cover .eyebrow{margin:8px 0 5px}
+.cover .cover-rule{margin:8px}
+.cover .cover-hint{margin:10px 0 0}
+@media(max-width:700px){.cover-card{width:min(100%,430px)}.cover h1{font-size:clamp(34px,9vw,41px)}}
+
+/* The uploaded artwork is the invitation surface itself */
+.cover{background-color:#78613a;background-image:url('assets/floral-invitation-bg.jfif');background-size:auto 100%;background-repeat:no-repeat;background-position:center}
+.cover-backdrop{background:none;filter:none;transform:none}
+.cover-card{width:min(100%,500px);filter:none}
+.cover-card-inner{padding:0;background:transparent;clip-path:none}
+.arch-frame{padding:0;border:0;background:transparent}
+.arch-inner{min-height:0;padding:45px 32px;background:transparent;border:0;clip-path:none}
+.arch-inner:before,.arch-inner:after{display:none}
+.cover h1{font-size:clamp(38px,4.2vw,48px)}
+@media(max-width:700px){.cover{background-size:100% 100%}.cover-card{width:min(100%,460px)}.arch-inner{padding:38px 24px}.cover h1{font-size:clamp(36px,9vw,44px)}}
+
+/* Updated couple and venue sections using the family supplied artwork */
+.couple{background:linear-gradient(rgba(255,250,239,.83),rgba(255,250,239,.83)),url('assets/temple-invitation-bg.jfif') center/cover no-repeat}
+.person-card{padding:20px 12px 14px;background:rgba(255,250,238,.82);border:1px solid rgba(181,139,63,.72);box-shadow:0 10px 26px rgba(85,60,25,.09)}
+.portrait-frame{width:178px;height:178px;border-radius:50%;padding:7px;background:rgba(255,249,232,.72);box-shadow:0 7px 22px rgba(75,52,20,.12)}
+.portrait-frame:before{inset:5px;border-radius:50%}
+.portrait-halo{display:none}
+.portrait-figure{width:116px;height:116px;bottom:26px;border-radius:50%;clip-path:none;background:radial-gradient(circle at 35% 28%,#e5cc8d,#9e762f 78%);box-shadow:inset 0 0 0 4px #f5e6bd,inset 0 0 0 6px #9c7538}
+.portrait-figure:before,.portrait-figure i{display:none}
+.portrait-figure span{margin:0;color:#fff6df;font:34px var(--tamil)}
+.portrait-caption{bottom:10px;background:rgba(255,249,232,.85);width:max-content;left:50%;right:auto;transform:translateX(-50%);padding:3px 10px}
+.person-card h3{font-size:32px}
+.venue{background:linear-gradient(rgba(249,241,221,.84),rgba(249,241,221,.84)),url('assets/temple-invitation-bg.jfif') center/cover no-repeat}
+.venue-art{background:linear-gradient(rgba(255,250,238,.12),rgba(255,250,238,.12)),url('assets/floral-invitation-bg.jfif') center/cover no-repeat}
+.venue-art .gopuram{display:none}
+.venue-copy{padding:24px;background:rgba(255,250,239,.77);border:1px solid rgba(184,143,70,.65)}
+.map-button{background:#43583a}
+@media(max-width:700px){.person-card{padding:20px 12px}.portrait-frame{width:170px;height:170px}.portrait-figure{width:108px;height:108px;bottom:24px}.venue-copy{padding:20px 14px}}
+
+/* Page 3: a distinct garden-green and ivory couple design */
+.couple{background:radial-gradient(ellipse at 50% 14%,#506b4e 0%,#304d39 53%,#1c3528 100%);color:#f8f0dc}
+.couple:before{content:"";position:absolute;inset:18px;border:1px solid rgba(225,204,147,.34);pointer-events:none}
+.couple .section-heading h2{color:#fff7e6}
+.couple .section-heading h2 em{color:#ddc688}
+.couple .section-heading .eyebrow{color:#ded2aa}
+.couple .ornament-line{color:#dfc783}
+.couple-grid{max-width:920px;gap:24px}
+.couple .person-card{position:relative;padding:26px 20px 22px;background:linear-gradient(155deg,#fffaf0,#eee5cf);border:1px solid #d7bd7c;box-shadow:0 12px 34px rgba(9,28,17,.22)}
+.couple .person-card:before{content:"";position:absolute;inset:7px;border:1px solid rgba(170,135,65,.48);pointer-events:none}
+.couple .portrait-frame{width:100%;height:112px;border:0;border-radius:0;padding:0;background:transparent;box-shadow:none}
+.couple .portrait-frame:before{display:none}
+.couple .portrait-figure{width:100%;height:94px;left:50%;bottom:13px;transform:translateX(-50%);border:0;border-radius:0;background:transparent;box-shadow:none}
+.couple .portrait-figure span{font:64px var(--tamil);color:#426148}
+.couple .portrait-figure.bride span{color:#a45546}
+.couple .portrait-caption{bottom:-1px;background:transparent;color:#8e7041;padding:0;letter-spacing:.2em}
+.couple .person-card h3{font-size:36px;color:#294333;margin-top:19px}
+.couple .person-role{color:#94733d}
+.couple .family-placeholder{color:#6f6754}
+.couple .couple-divider{color:#e1ca8d}
+.countdown-quote{max-width:550px;margin:28px auto 0;padding:15px 22px 0;border-top:1px solid rgba(172,134,66,.45);font-style:italic;font-size:20px;color:#846d49}
+@media(max-width:700px){.couple-grid{gap:22px}.couple .person-card{padding:23px 16px 18px}.couple .person-card h3{font-size:32px}.countdown-quote{font-size:18px;padding-left:8px;padding-right:8px}}
+
+/* Page 3 uses the newly supplied mandala invitation background */
+.couple{position:relative;min-height:640px;display:grid;place-items:center;padding:60px 20px;background:#e8b942 url('assets/couple-background.jfif') center/auto 100% no-repeat;color:#512219}
+.couple:before{inset:12px;border:1px solid rgba(99,47,29,.35)}
+.couple-copy{width:min(100%,460px);text-align:center;padding:64px 22px;color:#52241c}
+.couple-copy .eyebrow{color:#68301e;letter-spacing:.24em;margin-bottom:24px}
+.couple-copy h2{font:500 clamp(35px,6vw,52px)/1.08 var(--serif);color:#57241b;margin:14px 0;text-shadow:0 1px 0 rgba(255,248,218,.48)}
+.couple-amp{display:block;font:400 36px var(--display);color:#9a4c32;margin:8px 0}
+@media(max-width:700px){.couple{min-height:600px;padding:38px 16px;background-size:auto 100%}.couple-copy{padding:50px 14px}.couple-copy h2{font-size:clamp(34px,9vw,44px)}}
+.couple-copy{width:min(100%,390px)}
+.couple-copy h2{font-size:clamp(34px,5vw,46px)}
+@media(max-width:700px){.couple-copy{width:min(100%,360px)}.couple-copy h2{font-size:clamp(34px,8.5vw,42px)}}
+
+/* Venue art fills the left panel with a detailed mandapam drawing */
+.venue-art{background:linear-gradient(rgba(255,248,229,.2),rgba(255,248,229,.2)),url('assets/temple-invitation-bg.jfif') center/cover no-repeat;overflow:hidden}
+.venue-art .mandapam-illustration{position:relative;z-index:1;width:min(90%,420px);height:92%;filter:drop-shadow(0 7px 13px rgba(81,52,22,.16))}
+.venue-art:before{z-index:2;pointer-events:none}
+/* The final blessings page uses the supplied Tirumala-inspired background */
+.closing{min-height:560px;background-color:#f4e7c9;background-image:linear-gradient(rgba(248,239,218,.5),rgba(248,239,218,.5)),url('assets/temple-invitation-bg.jfif');background-size:cover;background-position:center bottom;background-repeat:no-repeat}
+@media(max-width:700px){.venue-art{min-height:260px}.venue-art .mandapam-illustration{width:min(90%,350px);height:94%}.closing{min-height:540px;background-position:center bottom}}
+
+/* Replace the venue illustration with a warm welcome message */
+.venue-art{display:grid;place-items:center;padding:28px;background:linear-gradient(rgba(255,248,229,.55),rgba(255,248,229,.55)),url('assets/temple-invitation-bg.jfif') center/cover no-repeat}
+.venue-art .venue-welcome-quote{position:relative;z-index:3;width:min(100%,340px);padding:27px 24px 25px;text-align:center;background:rgba(255,250,239,.9);border:1px solid #bd9652;box-shadow:0 10px 28px rgba(72,48,20,.14)}
+.venue-welcome-quote:before{content:"";position:absolute;inset:6px;border:1px solid rgba(189,150,82,.48);pointer-events:none}
+.venue-welcome-quote .quote-mark{display:block;height:35px;font:56px/1 var(--serif);color:#a47c3e}
+.venue-welcome-quote p{position:relative;margin:8px 0 14px;font:500 clamp(21px,2.4vw,27px)/1.28 var(--serif);color:#54221d}
+.venue-welcome-quote .quote-signoff{font:italic 15px var(--serif);color:#8b7047}
+@media(max-width:700px){.venue-art{padding:20px}.venue-art .venue-welcome-quote{padding:22px 18px}.venue-welcome-quote p{font-size:23px}}
+
+/* On-demand embedded Vallavan BGM player */
+.music-player-popover{position:fixed;z-index:12;top:78px;right:20px;width:min(320px,calc(100vw - 32px));padding:10px;background:#fff9ec;border:1px solid #c39a50;box-shadow:0 12px 32px rgba(40,20,10,.24)}
+.music-player-popover[hidden]{display:none}
+.music-player-heading{display:flex;justify-content:space-between;align-items:center;padding:3px 5px 9px;color:#5b1015;font:500 12px var(--display);letter-spacing:.04em}
+.music-player-heading button{border:0;background:transparent;color:#6c2923;font-size:22px;cursor:pointer}
+.music-player-popover iframe{display:block;width:100%;height:200px;border:0;background:#201713}
+.music-player-popover p{margin:8px 2px 1px;font-size:13px;color:#806b51;font-style:italic}
+@media(max-width:480px){.music-player-popover{right:12px;top:72px;width:min(320px,calc(100vw - 24px))}}
+
+/* Requested refinements: opening typography, softer page 2 overlay, mobile page 3 fit */
+.cover .eyebrow{font-size:10px;letter-spacing:.17em;line-height:1.5;color:#765b34}
+.cover h1{font-size:clamp(42px,5vw,52px);line-height:.98;letter-spacing:-.015em;color:#4b281d}
+.cover .blessing{font-size:17px;line-height:1.55;color:#594733}
+.cover .cover-date{font-size:15px;letter-spacing:.09em;color:#654728}
+.welcome{background-image:linear-gradient(rgba(255,250,240,.80),rgba(255,250,240,.82)),url('assets/temple-invitation-bg.jfif')}
+@media(max-width:700px){.cover h1{font-size:clamp(35px,9vw,43px)}.couple{background-size:100% 100%;background-position:center}}
+
+/* Page 3 portrait gallery */
+.couple{padding:84px 22px 78px;min-height:0;background-color:#e8b942;background-image:url('assets/couple-background.jfif');background-position:center;background-size:auto 100%;background-repeat:no-repeat}
+.couple-gallery-wrap{position:relative;z-index:1;width:min(100%,980px);margin:auto;text-align:center}
+.couple-copy{width:100%;padding:0 10px 26px;color:#54231c}
+.couple-copy .eyebrow{font-size:10px;letter-spacing:.24em;color:#754a31;margin:0 0 10px}
+.couple-copy h2{font:500 clamp(34px,5.5vw,56px)/1.05 var(--serif);color:#55241b;margin:0 auto;max-width:920px;text-shadow:0 1px 0 rgba(255,247,221,.65)}
+.couple-copy h2 span{color:#a97838;font-size:.76em;font-style:italic;padding:0 .16em}
+.couple-subtitle{margin:12px 0 0;color:#765e42;font-size:17px;font-style:italic}
+.gallery-stage{--gallery-backdrop:url('assets/couple-photo-1.jpeg');position:relative;isolation:isolate;overflow:hidden;width:min(100%,760px);height:clamp(350px,58vh,560px);margin:0 auto;border:1px solid #c09a55;outline:5px solid rgba(255,248,226,.82);box-shadow:0 18px 42px rgba(69,42,15,.23);background:#352a24}
+.gallery-stage:before{content:"";position:absolute;z-index:-1;inset:-24px;background-image:var(--gallery-backdrop);background-size:cover;background-position:center;filter:blur(22px) brightness(.58) saturate(.8);transform:scale(1.08)}
+.gallery-main{position:absolute;inset:0;display:grid;place-items:center;width:100%;height:100%;padding:0;border:0;background:transparent;cursor:zoom-in}
+.gallery-main img{display:block;width:100%;height:100%;object-fit:contain;transition:opacity .36s ease,transform .55s cubic-bezier(.2,.8,.2,1);filter:drop-shadow(0 6px 18px rgba(0,0,0,.25))}
+.gallery-main img.is-changing{opacity:0;transform:scale(.97)}
+.gallery-counter{position:absolute;z-index:3;top:15px;left:16px;padding:6px 10px;background:rgba(39,29,21,.68);color:#fff5db;font:11px var(--display);letter-spacing:.12em}
+.gallery-expand{position:absolute;z-index:3;right:14px;bottom:14px;width:38px;height:38px;border:1px solid #f0d799;background:rgba(55,39,23,.7);color:#fff3cf;font-size:22px;cursor:pointer}
+.gallery-control{position:absolute;z-index:3;top:50%;transform:translateY(-50%);width:44px;height:44px;border:1px solid rgba(246,220,162,.8);border-radius:50%;background:rgba(44,34,24,.65);color:#fff4d5;font:32px/1 var(--serif);cursor:pointer;transition:background .2s,transform .2s}
+.gallery-control:hover{background:#7c4b2d;transform:translateY(-50%) scale(1.06)}
+.gallery-previous{left:14px}.gallery-next{right:14px}
+.gallery-caption{min-height:27px;margin:20px auto 13px;color:#5c3827;font:italic 20px var(--serif)}
+.gallery-thumbnails{display:flex;justify-content:center;gap:12px;margin:0 auto;max-width:100%;overflow-x:auto;padding:5px 8px 9px}
+.gallery-thumb{flex:0 0 72px;width:72px;height:72px;padding:3px;border:1px solid #b58e49;background:rgba(255,250,235,.7);cursor:pointer;opacity:.72;transition:transform .25s,opacity .25s,box-shadow .25s}
+.gallery-thumb img{display:block;width:100%;height:100%;object-fit:cover}
+.gallery-thumb:hover,.gallery-thumb.is-active{opacity:1;transform:translateY(-3px);box-shadow:0 5px 12px rgba(74,47,17,.18)}
+.gallery-thumb.is-active{outline:2px solid #765032;outline-offset:2px}
+.gallery-hint{margin:8px 0 0;color:#745d3f;font-size:14px;font-style:italic}
+.photo-lightbox{position:fixed;z-index:20;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(18,16,14,.94);padding:55px 76px 50px;flex-direction:column}
+.photo-lightbox[hidden]{display:none!important}
+.photo-lightbox>img{display:block;max-width:min(100%,1100px);max-height:calc(100vh - 130px);object-fit:contain;box-shadow:0 16px 60px #0008}
+.photo-lightbox>p{margin:13px 0 0;color:#f5e6c2;font:italic 18px var(--serif)}
+.lightbox-close,.lightbox-control{position:absolute;z-index:2;border:1px solid #d6b76d;background:rgba(47,34,24,.75);color:#fff2ce;cursor:pointer}
+.lightbox-close{top:22px;right:24px;width:45px;height:45px;font-size:28px}
+.lightbox-control{top:50%;transform:translateY(-50%);width:48px;height:54px;font:38px/1 var(--serif)}
+.lightbox-previous{left:18px}.lightbox-next{right:18px}
+body.photo-viewer-open{overflow:hidden}
+@media(max-width:700px){.couple{padding:66px 16px 64px;background-size:100% 100%}.couple-copy{padding:0 4px 22px}.couple-copy h2{font-size:clamp(33px,8vw,44px);line-height:1.08}.couple-subtitle{font-size:15px}.gallery-stage{height:clamp(340px,53vh,480px);width:100%}.gallery-control{width:38px;height:38px;font-size:28px}.gallery-previous{left:8px}.gallery-next{right:8px}.gallery-thumb{flex-basis:63px;width:63px;height:63px}.gallery-thumbnails{gap:9px}.photo-lightbox{padding:58px 40px 42px}.photo-lightbox>img{max-height:calc(100vh - 130px)}.lightbox-previous{left:6px}.lightbox-next{right:6px}.lightbox-control{width:34px;height:42px;font-size:31px}}
+@media(prefers-reduced-motion:reduce){.gallery-main img,.gallery-thumb,.gallery-control{transition:none}.gallery-stage:before{filter:brightness(.7)}}
+/* Keep portrait and landscape photos within the same gallery frame */
+.gallery-main{display:block}
+.gallery-main img{width:100%;height:100%;object-fit:contain}
+
+/* Polished antique-gold photo mat */
+.gallery-stage{padding:9px;border:1px solid #a87c3c;border-radius:3px;background:linear-gradient(140deg,#fff5d8 0%,#b8904d 18%,#f7e8bd 19%,#8f6734 52%,#edd59c 78%,#a77a3b 100%);outline:5px solid rgba(255,249,230,.9);box-shadow:0 0 0 6px rgba(177,137,65,.45),0 20px 42px rgba(69,42,15,.24)}
+.gallery-stage:before{inset:10px;border-radius:1px}
+.gallery-stage:after{content:"";position:absolute;z-index:2;inset:3px;border:1px solid rgba(255,246,218,.8);pointer-events:none}
+.gallery-main{inset:9px;width:auto;height:auto}
+.gallery-counter{top:22px;left:22px}
+.gallery-expand{right:22px;bottom:22px}
+.gallery-previous{left:20px}.gallery-next{right:20px}
+.gallery-thumb{border:2px solid #c5a15d;background:#fff6df;box-shadow:0 3px 9px rgba(62,38,18,.12)}
+.gallery-thumb.is-active{outline:2px solid #765032;outline-offset:2px}
+@media(max-width:700px){.gallery-stage{padding:7px;outline-width:3px;box-shadow:0 0 0 4px rgba(177,137,65,.38),0 14px 30px rgba(69,42,15,.22)}.gallery-stage:before{inset:8px}.gallery-main{inset:7px}.gallery-counter{top:18px;left:18px}.gallery-expand{right:18px;bottom:18px}.gallery-previous{left:14px}.gallery-next{right:14px}}
+
+/* Page 3: paired nameplate and editorial photo gallery */
+.couple-gallery-wrap{display:grid;grid-template-columns:minmax(250px,.72fr) minmax(0,1.5fr);grid-template-areas:"copy stage" "copy caption" "copy thumbs";align-items:center;gap:12px 48px;width:min(100%,1120px)}
+.couple-copy{grid-area:copy;width:100%;padding:38px 24px;background:rgba(255,248,228,.78);border:1px solid #b38a46;box-shadow:0 12px 30px rgba(69,42,15,.12);position:relative}
+.couple-copy:before{content:"";position:absolute;inset:7px;border:1px solid rgba(170,128,58,.48);pointer-events:none}
+.couple-copy .eyebrow{margin:0 0 18px}
+.couple-copy h2{font-size:clamp(36px,4vw,50px);line-height:1.05;margin:7px 0;white-space:normal}
+.couple-name-divider{display:block;font:italic 34px var(--display);color:#a6783c;line-height:1.1;margin:8px 0}
+.gallery-stage{grid-area:stage;width:100%;height:clamp(360px,54vh,520px)}
+.gallery-caption{grid-area:caption;margin:7px auto 0;min-height:26px}
+.gallery-thumbnails{grid-area:thumbs;margin:0 auto;padding-top:5px}
+@media(max-width:760px){.couple-gallery-wrap{grid-template-columns:minmax(0,1fr);grid-template-areas:"copy" "stage" "caption" "thumbs";gap:12px;width:min(100%,600px)}.couple-copy{padding:23px 16px 20px}.couple-copy .eyebrow{margin-bottom:9px}.couple-copy h2{font-size:clamp(34px,8.5vw,44px);margin:5px}.couple-name-divider{font-size:28px;margin:2px 0}.gallery-stage{height:clamp(340px,51vh,460px)}.gallery-caption{margin-top:4px}}
+/* Page 3 nameplate: remove card frame and slightly reduce name size */
+.couple-copy{background:transparent;border:0;box-shadow:none;padding:24px 12px;}
+.couple-copy:before{content:none;}
+.couple-copy h2{font-size:clamp(32px,4vw,48px);}
+@media(max-width:760px){.couple-copy{padding:12px 10px 16px}.couple-copy h2{font-size:clamp(32px,8.5vw,42px)}}
+/* Supplied temple photo for the final invitation page */
+.closing{background-color:#e7d4b0;background-image:linear-gradient(rgba(255,248,229,.32),rgba(255,248,229,.42)),url('assets/closing-page-background.jfif');background-size:cover;background-position:center;background-repeat:no-repeat;}
+@media(max-width:700px){.closing{background-position:center;background-size:cover;}}
+/* Softly blur the final-page photo so the invitation text stays clear */
+.closing{position:relative;isolation:isolate;overflow:hidden;background:transparent!important;}
+.closing::before{content:"";position:absolute;z-index:-1;inset:-7px;background:linear-gradient(rgba(255,249,233,.56),rgba(255,249,233,.62)),url('assets/closing-page-background.jfif') center/cover no-repeat;filter:blur(3px);}
+.closing .tamil,.closing .eyebrow,.closing h2,.closing-names,.closing-footer{position:relative;z-index:1;text-shadow:0 1px 2px rgba(255,250,239,.72);}
+@media(max-width:700px){.closing::before{background-position:center;filter:blur(3px);}}
+/* Restore the original final-page background */
+.closing{background-color:#f4e7c9!important;background-image:linear-gradient(rgba(248,239,218,.5),rgba(248,239,218,.5)),url('assets/temple-invitation-bg.jfif')!important;background-size:cover;background-position:center bottom;background-repeat:no-repeat;}
+.closing::before{content:none!important;}
+/* Final page: supplied invitation art, a single diya and no kolam ornament */
+.closing{background:transparent!important;min-height:100svh;}
+.closing::before{content:""!important;position:absolute;z-index:-1;inset:0;background:linear-gradient(rgba(255,249,234,.10),rgba(255,249,234,.10)),url('assets/final-tirumala-background.jfif') center/100% 100% no-repeat;filter:none;}
+.closing-ornament{display:none!important;}
+.closing-lamps{gap:0!important;}
+@media(max-width:700px){.closing{min-height:100svh}.closing::before{background-size:100% 100%;}}
+.developer-instagram{position:relative;z-index:1;display:inline-block;margin-top:10px;color:#6b3524;font:500 12px var(--display);letter-spacing:.11em;text-decoration:none;border-bottom:1px solid rgba(107,53,36,.5);transition:color .2s,border-color .2s;}
+.developer-instagram:hover{color:#8d2022;border-color:#8d2022;}
+.developer-credit{position:relative;z-index:1;display:block;margin-top:10px;color:#6b3524;font:500 12px var(--display);letter-spacing:.08em;}
+.developer-credit .developer-instagram{margin:0 0 0 4px;}
+.developer-credit{margin-top:18px;color:#3f1b16;font-weight:600;}
+.developer-credit .developer-instagram{color:#3f1b16;font-weight:700;border-color:rgba(63,27,22,.72);}
+.developer-credit .developer-instagram:hover{color:#7c1b20;border-color:#7c1b20;}
+.developer-credit{text-align:center;}
+.developer-credit .developer-instagram{display:table;margin:7px auto 0;}
+.developer-credit .developer-instagram{margin-top:18px;}
+footer .footer-credit{text-align:center;}
+footer .footer-developer{display:block;margin-top:5px;font-size:11px;letter-spacing:.06em;}
+footer .footer-developer a{color:#e4c987;text-decoration:underline;text-underline-offset:3px;}
+footer .footer-developer a:hover{color:#fff4d5;}
+footer{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px 24px;}
+footer>span:first-child{justify-self:start;}
+footer>.footer-credit{justify-self:center;}
+footer>span:last-child{justify-self:end;}
+@media(max-width:700px){footer{grid-template-columns:1fr;justify-items:center;gap:9px;text-align:center;}footer>span:first-child,footer>.footer-credit,footer>span:last-child{justify-self:center;}}
+@media(max-width:700px){footer{grid-template-columns:auto minmax(0,1fr) auto;justify-items:stretch;gap:6px;padding:14px 10px;text-align:center;font-size:10px;}footer>span:first-child{justify-self:start;}footer>.footer-credit{justify-self:center;min-width:0;font-size:10px;line-height:1.35;}footer>span:last-child{justify-self:end;font-size:10px;white-space:nowrap;}footer .footer-developer{font-size:9px;margin-top:3px;}}
+@media(max-width:700px){footer{font-size:12px;}footer>.footer-credit{font-size:12px;line-height:1.4;}footer>span:first-child,footer>span:last-child{font-size:11px;}footer .footer-developer{font-size:10px;}}
